@@ -1,0 +1,85 @@
+user
+    'id': 1,
+    'name': u'Erik',
+    'usergroup': u'responsible',
+    'priogroup': 1
+
+curl -i -H "Content-Type: application/json" -X PUT -d '{"priogroup":4,"name":"bob"}' http://localhost:5000/bookerang/api/v1.0/users/1
+curl -i -H "Content-Type: application/json" -X PUT -d '{"name":"bob"}' http://localhost:5000/bookerang/api/v1.0/users/1
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Shedder","priogroup":5,"usergroup":"participant"}' http://localhost:5000/bookerang/api/v1.0/users
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/bookerang/api/v1.0/users/1
+
+activity
+    'id': 1,    
+    'name': u'Kajak',
+    'description': u'Do you like water? No? Then this is probebly not for you.'
+
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/activities/1
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/activities
+curl -i -H "Content-Type: application/json" -X PUT -d '{"name":"Kanot"}' http://localhost:5000/bookerang/api/v1.0/activities/1
+curl -i -H "Content-Type: application/json" -X PUT -d '{"description":"Do you love water? Yes? Great lets get crazy!"}' http://localhost:5000/bookerang/api/v1.0/activities/1
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Two day hike","description":"Why not go for a short Hinke mid camp?"}' http://localhost:5000/bookerang/api/v1.0/activities
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/bookerang/api/v1.0/activities/1
+
+
+occassions
+    'id': 1,
+        'activity_id': 1,
+        'date': u'2016-07-01',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+
+
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/occasions/1
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/occasions
+curl -i -H "Content-Type: application/json" -X PUT -d '{"date":"3000-02-02"}' http://localhost:5000/bookerang/api/v1.0/occasions/1
+curl -i -H "Content-Type: application/json" -X PUT -d '{"place":"Under the water!","min":13,"max":37}' http://localhost:5000/bookerang/api/v1.0/occasions/1
+curl -i -H "Content-Type: application/json" -X POST -d '{"activity_id":1,"date":"2016-08-01","starttime":"08:00","endtime":"11:00","place":"Uppe","min":"5","max":"15","priogroup":"5","responsible":"1"}' http://localhost:5000/bookerang/api/v1.0/occasions
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/bookerang/api/v1.0/occasions/1
+
+http://localhost:8080/scout/boomerang/php/curlRequest.php?url=occasions&method=POST&activity_id=2&date=2016-08-01&starttime=09:00&endtime=18:00&place=under&min=1&max=4&priogroup=3&responsible=3
+
+
+
+
+userschedules
+        'user_prio': 3,
+        'user_id': 1,
+        'occasion_id': 1,
+     #DEFAULT: ALWAYS FALSE
+            'approved': False,
+            'decided': False
+userschedules = [
+    {
+        'user_prio': 3,
+        'user_id': 1,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    }
+]
+
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/userschedules/1
+curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/bookerang/api/v1.0/userschedules
+curl -i -H "Content-Type: application/json" -X PUT -d '{"date":"3000-02-02"}' http://localhost:5000/bookerang/api/v1.0/userschedules/1
+curl -i -H "Content-Type: application/json" -X PUT -d '{"place":"Under the water!","min":13,"max":37}' http://localhost:5000/bookerang/api/v1.0/userschedules/1
+curl -i -H "Content-Type: application/json" -X POST -d '{"activity_id":1,"date":"2016-08-01","starttime":"08:00","endtime":"11:00","place":"Uppe","min":"5","max":"15","priogroup":"5","responsible":"1"}' http://localhost:5000/bookerang/api/v1.0/userschedules
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/bookerang/api/v1.0/userschedules/
+
+
+
+
+server{
+    listen 80;
+    server_name cloud.wilhelmsson.eu;
+
+    location / {
+            proxy_pass http://127.0.0.1:5000$request_uri;
+            proxy_set_header Host $host;
+    }
+}

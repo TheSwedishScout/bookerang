@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bookerang - Aktiviteter</title>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/aktiviteter.css">
+
+</head>
+
+<body>
+<div id="siteCointainer">
+    <nav id="mainManuAria">
+    	<ul id="mainManu" >
+        	<li>
+            	<a href="index.html"><img src="Images/Boomerang-logo.png"  alt="boomerang2016 logo"/></a>
+    		</li>
+            <li>
+            	<a href="deltagare.html">DELTAGARE</a>
+            </li>
+            <li>
+            	<a href="aktiviteter.html">AKTIVITETER</a>
+            </li>
+            <li>
+            	<a href="#">MEDDELANDE</a>
+            </li>
+        </ul>
+        <ul id="quickLinks">
+            <li>
+                <a href="#">Boomerang</a>
+            </li>
+            <li>
+                <a id="loginBtn" href="#">login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Aktiviteter</h1>
+        <form id="formfield">
+            <label>Sök aktivitet:</label>
+            <input id="Mainserch" type="text" pattern="[A-Za-z]" placeholder="Sök aktivtiteter"></input> <!--Söker efter deltagare när man har skrivit och inte skrivigt något på ca 0,4 sec-->
+        </form>
+        <button id="Newinfo">Ny aktivitet</button>
+        <ul id="mainList">
+			<li class="user">
+                <div class="userLeft">
+                    <h2><input type="text" placeholder="namn"></input></h2>
+					<button class="andraBTN">Ändra</button>
+                </div>
+				<ul class="userInfoRight">
+                    <li>Ansvarig Funk</li>
+                    <li><input placeholder="Namn"></input></li>
+                    <li><input placeholder="tele"></input></li>
+                    <li><input placeholder="email"></input></li>             
+                </ul>
+				<textarea>description</textarea>
+                <div class="aktiviteter"> 
+                    <p>Tillfällen:</p>
+                    <ul>
+                        <li>
+                            Lördag:
+                        </li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                    
+                    <ul>
+                        <li>
+                            Söndag:
+                        </li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                    <ul>
+                        <li>Måndag:</li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                    <ul>
+                        <li>Tisdag:</li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+
+                    <ul>
+                        <li>Onsdag:</li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                    
+                    <ul>
+                        <li>Torsdag:</li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+                        <li>aktivitet 3 10-11</li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                    <ul>
+                        <li>Fredag:</li>
+                        <li>
+                            aktivitet 10-22
+                        </li>
+                        <li>
+                            aktivitet 2 22-24
+                        </li>
+						<input class="aktivitetsTider" type="number" placeholder="start"/>
+						<input class="aktivitetsTider" type="number" placeholder="slut"/>
+						<button>add</button>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </main>
+    
+</div>
+<script src="js/main.js"></script>
+<script src="js/aktiviteter.js"></script>
+
+</body>
+</html>

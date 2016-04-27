@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"function"
+			],
+			[
+				"in",
+				"init"
+			],
+			[
+				"new",
+				"newPizza"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ak",
+				"aktiviteter"
+			],
+			[
+				"gey",
+				"getElementsByClassName"
+			],
+			[
+				"prio",
+				"prioGroup"
+			],
+			[
+				"oc",
+				"occasion_id"
+			],
+			[
+				"id",
+				"user_id"
+			],
+			[
+				"newus",
+				"newUserButton"
+			],
+			[
+				"nre",
+				"newUserButton"
+			],
+			[
+				"rem",
+				"removeEventListener"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"inm",
+				"inputName"
+			],
+			[
+				"input",
+				"inputName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"prev",
+				"previousElementSibling"
+			],
+			[
+				"par",
+				"parentNode"
+			],
+			[
+				"edit",
+				"editButton"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"ol",
+				"olActivity"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"ed",
+				"editUser"
+			],
+			[
+				"te",
+				"test_input"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"pre",
+				"prepareEditUser"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"list",
+				"listItem"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"start",
+				"starttime"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"outT",
+				"outTemp"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"mo",
+				"move"
+			],
+			[
+				"line",
+				"lineTo"
+			],
+			[
+				"past",
+				"pastTemp"
+			],
+			[
+				"pas",
+				"pastPosition"
+			],
+			[
+				"fill",
+				"fillRect"
+			],
+			[
+				"ca",
+				"calcValue"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"END",
+				"end_date"
+			],
+			[
+				"rain",
+				"rainRate"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tra",
+				"target	Attr"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"t",
+				"tvaSpalt"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ta",
+				"table	Tag"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ni",
+				"nick"
+			],
+			[
+				"re",
+				"register"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"kår",
+				"aktiv_kår_count"
+			],
+			[
+				"s",
+				"subject"
+			],
+			[
+				"bil",
+				"bild_ja"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"main",
+				"main_menu"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"Email",
+				"e-mail"
+			],
+			[
+				"em",
+				"email_update"
+			],
+			[
+				"pass",
+				"password_update"
+			],
+			[
+				"upp",
+				"uppdated"
+			],
+			[
+				"pho",
+				"phone_update"
+			],
+			[
+				"emai",
+				"email_update"
+			],
+			[
+				"upda",
+				"updated"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ow",
+				"overflow"
+			],
+			[
+				"a",
+				"alt	Attr"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"fott",
+				"fottern"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"h",
+				"href	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/wamp/www/scout/boomerang"
+	],
+	"file_history":
+	[
+		"/G/wamp/bin/apache/apache2.4.17/conf/httpd.conf",
+		"/G/wamp/www/API_test/apitest.js",
+		"/G/wamp/www/timje.se/test2.php",
+		"/G/wamp/www/scout/boomerang/js/Curl expretions.txt",
+		"/G/wamp/www/timje_web_2016-03-27/apitest.js",
+		"/G/wamp/www/API_test/timetest.php",
+		"/G/wamp/www/API_test/weather_graph.php",
+		"/G/wamp/www/timje.se/graph.html",
+		"/G/wamp/www/timje.se/graph.js",
+		"/G/wamp/www/scout/lager2016/function.php",
+		"/C/Users/Jarv/AppData/Roaming/Skype/My Skype Received Files/script.js",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/HurvispelarCarcassonneHTML.html",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/images/image37.png",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/HurvispelarCarcassonne.html",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/HurvispelarCarcassonne.txt",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/HurvispelarCarcassonne.rtf",
+		"/C/Users/Jarv/Google Drive/Fam Timje/Carcassonne/HurvispelarCarcassonne test.html",
+		"/G/wamp/www/timje.se/rules/index.php",
+		"/G/wamp/www/scout/lager2016/styles/main.css",
+		"/G/wamp/www/scout/lager2016/update_parse.php",
+		"/G/wamp/www/scout/lager2016/update.php",
+		"/G/wamp/www/scout/lager2016/contact.php",
+		"/G/wamp/www/scout/lager2016/anmalda.php",
+		"/G/wamp/www/scout/lager2016/kontakta.php",
+		"/G/wamp/www/scout/lager2016/download_xml2.php",
+		"/G/wamp/www/scout/lager2016/download_xml.php",
+		"/G/wamp/www/aktivitetsbankenV2/php/funktions1.php",
+		"/G/wamp/www/aktivitetsbankenV2/index.php",
+		"/G/temp/client_secret_951239622136-cjlkmfms12he69ea1rd56p5ohtsi9554.apps.googleusercontent.com.json",
+		"/G/wamp/www/scout/lager2016/password_reset.php",
+		"/G/wamp/www/scout/lager2016/anmalan.php",
+		"/G/wamp/www/scout/lager2016/funktioner.php",
+		"/G/wamp/www/scout/lager2016/index.php",
+		"/G/wamp/www/scout/lager2016/login.php",
+		"/G/wamp/www/scout/lager2016/logout.php",
+		"/G/wamp/www/scout/lager2016/mittkonto.php",
+		"/G/wamp/www/scout/lager2016/password_new_parse.php",
+		"/G/wamp/www/scout/lager2016/password_reset_parse.php",
+		"/G/wamp/www/scout/lager2016/register_parse.php",
+		"/G/wamp/www/scout/lager2016/registrera.php",
+		"/G/wamp/www/scout/lager2016/remove_parse.php",
+		"/G/wamp/www/scout/lager2016/reset_password.php",
+		"/G/wamp/www/scout/lager2016/reset_password_send_parse.php",
+		"/G/wamp/www/scout/lager2016/vanligafragor.php",
+		"/G/wamp/www/wordpress/wp-content/themes/wireframe.png",
+		"/G/wamp/www/wordpress/wp-content/themes/max_scouten/style.css",
+		"/G/wamp/www/wordpress/wp-content/themes/max_scouten/index.php",
+		"/G/wamp/www/wordpress/wp-content/themes/max_scouten/header.php",
+		"/G/wamp/www/wordpress/wp-content/themes/max_scouten/functions.php",
+		"/G/wamp/www/wordpress/wp-content/themes/max_scouten/footer.php",
+		"/G/wamp/www/scout/lager2016/anmalan_parse.php",
+		"/G/wamp/www/scout/lager2016/js/my_js.js",
+		"/G/wamp/www/scout/lager2016/login_parse.php",
+		"/G/wamp/www/scout/lager2016/styles/main.less",
+		"/G/wamp/www/scout/lager2016/sql.php",
+		"/G/wamp/www/scout/lager2016/edit_detail.php",
+		"/G/wamp/www/scout/lager2016/readme.txt",
+		"/G/wamp/www/Assignment 5/css/old_main.css",
+		"/G/wamp/www/Assignment 5/css/main.css",
+		"/G/wamp/www/Assignment 5/index.html",
+		"/I/Mina Bilder/2015/15-10-26 måne natt/IMG_0730b.jpg",
+		"/G/wamp/www/Assignment 3/html/css/main.css",
+		"/G/wamp/www/Assignment 3/html/index.html",
+		"/G/wamp/www/wordpress/wp-content/plugins/max/max-forstaplugin.php",
+		"/G/wamp/www/test/onpress.html",
+		"/G/wamp/www/timje.se - Clean/Photos/image.php",
+		"/G/wamp/www/timje.se - Clean/elements/sqllogin.php",
+		"/G/scout/joti/setupAndTest/Sarek.kml",
+		"/G/scout/joti/setupAndTest/Sarek.kmz",
+		"/G/wamp/www/dethandeengrej/notes.txt",
+		"/G/wamp/www/dethandeengrej/styles/standard.css",
+		"/G/wamp/www/dethandeengrej/about.php",
+		"/G/wamp/www/dethandeengrej/function.php",
+		"/G/wamp/www/dethandeengrej/logout.php",
+		"/G/scout/joti/setupAndTest/Untitled Tour.kml",
+		"/G/wamp/www/dethandeengrej/index.php",
+		"/G/wamp/www/ph13t0n/notifications/donationnotification.css",
+		"/G/wamp/www/dethandeengrej/style/standard.css",
+		"/G/wamp/www/timje.se/test.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ost",
+			"\"",
+			"allow fr",
+			"allow",
+			"4",
+			"\n			<li>\n				<a href=\"#\">Pizza</a>\n			</li>",
+			"user_prio",
+			"prio",
+			"name",
+			"saveuse",
+			"addActivity",
+			"hiddeNewUser",
+			")\n",
+			"newUser",
+			"li.",
+			"li",
+			"nextSibling",
+			"id",
+			"cancelButton",
+			"userName",
+			"akti",
+			"Array",
+			"prioGroup",
+			"inputName",
+			"Things",
+			"}\n",
+			"POST",
+			"prioGroup",
+			"priogroup",
+			"prioGroup",
+			"priogroup",
+			"prioGroup",
+			"prioClass",
+			"listItem",
+			"user",
+			"var list = this.previous",
+			"draw_dottedLine",
+			"getElementById",
+			"windDir",
+			"15",
+			"windSpeed",
+			"windDir",
+			"move",
+			"windDir",
+			"windSpeed",
+			"100",
+			"20",
+			"10",
+			"move",
+			"multiply",
+			"rain",
+			"outTemp",
+			"dataType",
+			"outTemp",
+			"50",
+			"width",
+			"-->\n",
+			"width",
+			"800",
+			"Images",
+			"div",
+			"td",
+			"table",
+			"tr",
+			"src=\"images",
+			"50",
+			"LandskapsLista",
+			"li><li",
+			"</li>",
+			"<li>",
+			"expantionerLista",
+			"<span>\n</span>",
+			"<span>",
+			"h3",
+			"</>",
+			"<>",
+			"span",
+			"h.5i5pwgnuttn5",
+			"c13 c25",
+			"c13 c35",
+			"c21",
+			"ljeslagar",
+			"ljes",
+			"title",
+			"h.ipcta8sh8kqx",
+			"title",
+			"h1",
+			"h2",
+			"h1",
+			"h2",
+			"h3",
+			"h4",
+			"h5",
+			"h6",
+			"h1",
+			";",
+			"}",
+			"{",
+			"}",
+			"{",
+			">",
+			"div",
+			"p",
+			"span",
+			"mainManuAria",
+			"mainManu",
+			"421",
+			"obj.value",
+			"		$",
+			"== ",
+			"php",
+			"logout",
+			"php",
+			"h2",
+			"sep",
+			"veg",
+			"Veg",
+			"sep",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bookerang.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,9 @@
+What to do:
+Inloggnings ruta
+(responsiv meny)
+Ändra taggar på saker när man tryckt ändra
+lista deltagare (göra en demo fil för deltagare)
+inlognings knapp på startsida
+markera vilken sida man är på
+ny aktivitet
+ny deltagare

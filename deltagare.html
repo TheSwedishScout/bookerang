@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bookerang - Admin</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/deltagare2.css">
+</head>
+
+<body>
+<div id="siteCointainer">
+    <nav id="mainManuAria">
+    	<ul id="mainManu" >
+        	<li>
+            	<a href="index.html"><img src="Images/Boomerang-logo.png"  alt="boomerang2016 logo"/></a>
+    		</li>
+            <li>
+            	<a href="deltagare.html">DELTAGARE</a>
+            </li>
+            <li>
+            	<a href="aktiviteter.html">AKTIVITETER</a>
+            </li>
+			
+        </ul>
+        <ul id="quickLinks">
+            <li>
+                <a href="#">Boomerang</a>
+            </li>
+            <li>
+				<a href="#login-box" id="myLoginBtn">login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Deltagare</h1>
+		
+		<!--<form id="formfield">
+			<label>Sök deltagare:</label>
+			<input id="Mainserch" type="text" pattern="[A-Za-z]*" placeholder="Namn, Grupp, ID"></input>  efter deltagare när man har skrivit och inte skrivigt något på ca 0,4 sec
+		</form>-->
+		<button id="Newinfo">Ny deltagare</button>
+		
+
+		<div class="activities hidden" id="newUser">
+
+		
+		</div>
+			
+			<ul id="allUsers">
+			<!-- Users is listed hear -->
+			</ul>
+    </main>   
+</div>
+<!-- The Modal -->
+<div id="login-box" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <form method="post" class="signin" action="#">
+        <fieldset class="textbox">
+        <label class="username">
+        <span>Användarnamn</span>
+        <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Användarnamn">
+        </label>
+        <label class="password">
+        <span>Lösenord</span>
+        <input id="password" name="password" value="" type="password" placeholder="Lösenord">
+        </label>
+        <button class="submit button" type="button">Logga in</button>       
+        </fieldset>
+  </form>
+    </div>
+  </div>
+</div>
+<!--<script src="js/main.js"></script>-->
+<script src="js/deltagare.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>           
+            
+
+                        
+
+
+
+
+
+
+            

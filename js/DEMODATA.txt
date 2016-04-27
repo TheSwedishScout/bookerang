@@ -1,0 +1,491 @@
+"""demodata"""
+users = [
+    {
+        'id': 1,
+        'name': u'Erik',
+        'usergroup': u'responsible',
+        'priogroup': 1
+    },
+    {
+        'id': 2,
+        'name': u'Max',
+        'usergroup': u'responsible',
+        'priogroup': 3
+    },
+    {
+        'id': 3,
+        'name': u'Johan',
+        'usergroup': u'responsible',
+        'priogroup': 1
+    },
+    {
+        'id': 4,
+        'name': u'Raphael',
+        'usergroup': u'participant',
+        'priogroup': 2
+    },
+    {
+        'id': 5,
+        'name': u'Leonardo',
+        'usergroup': u'participant',
+        'priogroup': 2
+    },
+    {
+        'id': 6,
+        'name': u'Michelangelo',
+        'usergroup': u'participant',
+        'priogroup': 2
+    },
+    {
+        'id': 7,
+        'name': u'Donatello',
+        'usergroup': u'participant',
+        'priogroup': 2
+    },
+    {
+        'id': 8,
+        'name': u'Splinter',
+        'usergroup': u'participant',
+        'priogroup': 4
+    },
+    {
+        'id': 9,
+        'name': u'April ONeil',
+        'usergroup': u'participant',
+        'priogroup': 4
+    },
+    {
+        'id': 10,
+        'name': u'Casey Jones',
+        'usergroup': u'participant',
+        'priogroup': 4
+    }
+]
+activities = [
+    {
+        'id': 1,
+        'name': u'Kajak',
+        'description': u'Do you like water? No? Then this is probebly not for you.'
+    },
+    {
+        'id': 2,
+        'name': u'Climbing',
+        'description': u'Lets see how far you can reach, indoor wallclimbing.'
+    },
+    {
+        'id': 3,
+        'name': u'Bumperballs',
+        'description': u'What could be more fun than bumping in to new friends?'
+    },
+    {
+        'id': 4,
+        'name': u'Sailing',
+        'description': u'Sailing small keelboats'
+    }
+]
+occasions = [
+    {
+        'id': 1,
+        'activity_id': 1,
+        'date': u'2016-07-01',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 2,
+        'activity_id': 1,
+        'date': u'2016-07-01',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 3,
+        'activity_id': 1,
+        'date': u'2016-07-02',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 4,
+        'activity_id': 1,
+        'date': u'2016-07-02',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 5,
+        'activity_id': 1,
+        'date': u'2016-07-03',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 6,
+        'activity_id': 1,
+        'date': u'2016-07-03',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 7,
+        'activity_id': 1,
+        'date': u'2016-07-04',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 8,
+        'activity_id': 1,
+        'date': u'2016-07-04',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 9,
+        'activity_id': 1,
+        'date': u'2016-07-05',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 10,
+        'activity_id': 1,
+        'date': u'2016-07-05',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Havet',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 11,
+        'activity_id': 2,
+        'date': u'2016-07-01',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 12,
+        'activity_id': 2,
+        'date': u'2016-07-01',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 13,
+        'activity_id': 2,
+        'date': u'2016-07-02',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 14,
+        'activity_id': 2,
+        'date': u'2016-07-02',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 15,
+        'activity_id': 2,
+        'date': u'2016-07-03',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 16,
+        'activity_id': 2,
+        'date': u'2016-07-03',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 17,
+        'activity_id': 2,
+        'date': u'2016-07-04',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 18,
+        'activity_id': 2,
+        'date': u'2016-07-04',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 19,
+        'activity_id': 2,
+        'date': u'2016-07-05',
+        'starttime': u'08:00',
+        'endtime': u'11:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 20,
+        'activity_id': 2,
+        'date': u'2016-07-05',
+        'starttime': u'13:00',
+        'endtime': u'16:00',
+        'place': u'Fladan',
+        'min': 10,
+        'max': 50,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 21,
+        'activity_id': 3,
+        'date': u'2016-07-01',
+        'starttime': u'09:00',
+        'endtime': u'11:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 22,
+        'activity_id': 3,
+        'date': u'2016-07-01',
+        'starttime': u'13:00',
+        'endtime': u'15:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 23,
+        'activity_id': 3,
+        'date': u'2016-07-02',
+        'starttime': u'09:00',
+        'endtime': u'11:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 24,
+        'activity_id': 3,
+        'date': u'2016-07-02',
+        'starttime': u'13:00',
+        'endtime': u'15:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 25,
+        'activity_id': 3,
+        'date': u'2016-07-03',
+        'starttime': u'09:00',
+        'endtime': u'11:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 26,
+        'activity_id': 3,
+        'date': u'2016-07-03',
+        'starttime': u'13:00',
+        'endtime': u'15:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 27,
+        'activity_id': 3,
+        'date': u'2016-07-04',
+        'starttime': u'09:00',
+        'endtime': u'11:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 28,
+        'activity_id': 3,
+        'date': u'2016-07-04',
+        'starttime': u'13:00',
+        'endtime': u'15:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 29,
+        'activity_id': 3,
+        'date': u'2016-07-05',
+        'starttime': u'09:00',
+        'endtime': u'11:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    },
+    {
+        'id': 30,
+        'activity_id': 3,
+        'date': u'2016-07-05',
+        'starttime': u'13:00',
+        'endtime': u'15:00',
+        'place': u'Hagen',
+        'min': 8,
+        'max': 32,
+        'priogroup': 1,
+        'responsible': 4
+    }
+    
+]
+userschedules = [
+    {
+        'id':1,
+        'user_prio': 2,
+        'user_id': 1,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    },
+    {
+        'id':2,
+        'user_prio': 3,
+        'user_id': 2,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    },
+    {
+        'id':3,
+        'user_prio': 3,
+        'user_id': 1,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    },
+    {
+        'id':4,
+        'user_prio': 3,
+        'user_id': 1,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    },
+    {
+        'id':5,
+        'user_prio': 3,
+        'user_id': 1,
+        'occasion_id': 1,
+        'approved': False,
+        'decided': False
+    }
+]
+

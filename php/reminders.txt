@@ -1,0 +1,13 @@
+/*
+curl -i -H "Content-Type: application/json" -X GET -d '{"priogroup":4}' http://localhost:5000/bookerang/api/v1.0/users
+   get specific user by /user_id:
+curl -i -H "Content-Type: application/json" -X GET -d '{"priogroup":4}' http://localhost:5000/bookerang/api/v1.0/users/1
+   edit user where parameter is int and /user_id is provided:
+curl -i -H "Content-Type: application/json" -X PUT -d '{"priogroup":4}' http://localhost:5000/bookerang/api/v1.0/users/1
+   edit user where parameter is string and /user_id is provided:
+curl -i -H "Content-Type: application/json" -X PUT -d '{"name":"bob"}' http://localhost:5000/bookerang/api/v1.0/users/1
+   make a new user with provided json(user_id wil be ai):
+curl -i -H "Content-Type: application/json" -X POST -d '{"name":"Shedder","priogroup":5,"usergroup":"participant"}' http://localhost:5000/bookerang/api/v1.0/users
+   delete user with /user_id:
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:5000/bookerang/api/v1.0/users/1
+*/

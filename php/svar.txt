@@ -1,0 +1,65 @@
+
+  {"users" [
+    {
+      "name": "Erik", 
+      "priogroup": 1, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/1", 
+      "usergroup": "responsible"
+    }, 
+    {
+      "name": "Max", 
+      "priogroup": 3, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/2", 
+      "usergroup": "responsible"
+    }, 
+    {
+      "name": "Johan", 
+      "priogroup": 1, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/3", 
+      "usergroup": "responsible"
+    }, 
+    {
+      "name": "Raphael", 
+      "priogroup": 2, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/4", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "Leonardo", 
+      "priogroup": 2, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/5", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "Michelangelo", 
+      "priogroup": 2, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/6", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "Donatello", 
+      "priogroup": 2, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/7", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "Splinter", 
+      "priogroup": 4, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/8", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "April ONeil", 
+      "priogroup": 4, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/9", 
+      "usergroup": "participant"
+    }, 
+    {
+      "name": "Casey Jones", 
+      "priogroup": 4, 
+      "uri": "http://cloud.wilhelmsson.eu:5521/bookerang/api/v1.0/users/10", 
+      "usergroup": "participant"
+    }
+  ]
+}
+

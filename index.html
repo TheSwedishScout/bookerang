@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bookerang - Admin</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<div id="siteCointainer">
+    <nav id="mainManuAria">
+    	<ul id="mainManu" >
+        	<li>
+            	<a href="index.html"><img src="Images/Boomerang-logo.png"  alt="boomerang2016 logo"/></a>
+    		</li>
+            <li>
+            	<a href="deltagare.html">DELTAGARE</a>
+            </li>
+            
+            <li>
+            	<a href="aktiviteter.html">AKTIVITETER</a>
+            </li>
+            
+        </ul>
+        <ul id="quickLinks">
+            <li>
+                <a href="#">Boomerang</a>
+            </li>
+            <li>
+                <a href="#login-box" id="myLoginBtn">login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Välkommen till Boomerang 2016 deltagarsida</h1>
+        <p>
+            Denna sida riktar sig till dig som är med i Boomerangs informationsteam och aktivitetsansvariga på Boomerang 2016. När du loggat in med dina användaruppgifter kommer du att kunna lägga till och ändra aktiviteter samt lägga till nya deltagare. Nedan ser du en beskrivning på vad du kan göra på varje del av sidan. 
+        </p>
+         <ul class="description">
+            <li>
+                <div class="inner">
+                    <h3>Inloggning</h3>
+                    <p> Här ser du vilken typ av behörigheter den inloggade användaren har. </p>                     
+                </div>
+            </li>  
+            <li>
+                <div class="inner">
+                    <h3>Administrera användare</h3>
+                    <p>Här kan du söka bland användare, namn, personnummer, id och grupp. Du kan även tilldela användarrättigheter, ändra personuppgifter, skapa användare och tilldela aktiviteter. </p>
+                </div>
+            </li>
+            <li>
+                <div class="inner">
+                    <h3>Lägga till aktivitet</h3> 
+                    <p>Här administrerar du de aktiviteter som deltagare kan välja emellan. Du kan lägga till ny aktivitet eller lägga till aktivitetstillfälle.</p>                  
+                </div>
+            </li>  
+            <li>
+                <div class="inner">
+                    <h3>Uppdatera aktiviteter</h3>
+                    <p>Här kan du uppdatera befintlig information för en aktivitet, till exempel beskrivning, rubrik, antal platser och nya aktivitetstillfällen.</p>
+                </div>
+            </li>
+        </ul>
+        <div class="login">    
+            <a href="#login-box" id="myBtn2">
+            Logga in
+            </a>
+        </div>
+    </main>
+
+</div>
+
+
+<!-- The Modal -->
+<div id="login-box" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <form method="post" class="signin" action="#">
+        <fieldset class="textbox">
+        <label class="username">
+        <span>Användarnamn</span>
+        <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Användarnamn">
+        </label>
+        <label class="password">
+        <span>Lösenord</span>
+        <input id="password" name="password" value="" type="password" placeholder="Lösenord">
+        </label>
+        <button class="submit button" type="button">Logga in</button>       
+        </fieldset>
+  </form>
+    </div>
+  </div>
+
+</div>
+</body>
+<script src="js/index.js"></script>
+</html>

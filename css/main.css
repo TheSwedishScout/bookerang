@@ -1,0 +1,368 @@
+/*---------------------------FONTS---------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Piedra);
+/*-------------------------FONTS END-------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #333;
+}
+.hidden{
+	display: none;
+}
+#siteCointainer{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	background: #FFF;
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+#mainManuAria{
+	position: relative;
+	background: #000;
+}
+#mainManu{
+	list-style: none;
+	overflow: hidden;
+}
+#mainManu li{
+	float: left;
+	width: 25%;
+}
+#mainManu li a img{
+	height: inherit;
+}
+#mainManu li a:link, #mainManu li a:visited{
+	color: #11D8FD;
+	display: block;
+	text-align: center;
+	line-height: 80px;
+	height: 80px;
+	text-decoration: none;
+	font-family: Piedra;
+	font-size: 1.2em;
+}
+#mainManu li a:hover{
+	color: #10bbdb;
+	background: #111;
+}
+#mainManu li a:active{
+	background: #FA8F11;
+
+}
+#quickLinks{
+	position: absolute;
+	right: 0;
+	top: 2px;
+	overflow: hidden;
+	list-style: none;
+}
+#quickLinks li{
+	float: left;
+}
+#quickLinks li a{
+	color: #FA8F11;
+	text-decoration: none;
+	padding: 0 5px;
+	border-right: 1px solid #FA8F11;
+	font-size: 0.8em;
+}
+#quickLinks li:last-child a{
+	border-right: none;
+}
+
+/*-----------------------------------------------MAIN-----------------------------------------------*/
+main{
+	margin: 20px 40px;
+	
+}
+h1{
+	text-align: center;
+}
+main form #Mainserch{
+	clear: both;
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	font-size: 36px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+main form #Mainserch:focus{
+	outline: none;
+	border-color: #11D8FD;
+}
+main form #Mainserch::-webkit-input-placeholder{
+	color: #000;
+}
+main form #Mainserch:focus::-webkit-input-placeholder{
+	color: #666;
+}
+main form #Mainserch:-moz-placeholder{
+	color: #000;
+}
+main form #Mainserch::-moz-placeholder {
+	color: #000;
+}
+main form #Mainserch:-ms-input-placeholder{
+	color: #000;
+}
+main #Newinfo{
+	display: block;
+	background: none;
+	border:1px solid #000;
+	width: 100%;
+	line-height: 40px;
+	font-size: 36px;
+	text-align: left;
+	margin-top: 10px;
+	box-sizing: border-box;
+
+}
+.user{
+	overflow: hidden;
+	border: 1px solid #000;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 3px;
+	margin-top: 10px;
+	position:relative;
+}
+.user .userInfoRight{
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+.user .userLeft{
+	overflow:hidden;
+	display:inline-block;
+}
+.user .userLeft *{
+	float:left;
+}
+.user .userLeft .andraBTN{
+	height:27px;
+	padding:0 5px;
+	margin-left: 5px;
+}
+.aktiviteter{
+	overflow: hidden;
+	//float: left;
+}
+.aktiviteter ul{
+	float: left;
+	overflow: hidden;
+	list-style: none;
+	padding: 3px;
+	
+}
+.aktiviteter ul:nth-child(2n){
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.aktiviteter ul li:first-child{
+	font-weight: bold;
+}
+.aktiviteter ul input{
+	float: left;
+}
+.aktiviteter ul input.aktivitetsPlats{
+	float: left;
+	clear: both;
+	width: 142px;
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+.aktiviteter ul button{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.userInfoRight{
+	float: right;
+	text-align: right;
+	list-style: none;
+}
+
+/*-------------------------------------------MODAL LOG IN-----------------------------------------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #11D8FD;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: -3px;
+    right: 5px; 
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 20px 16px;
+    background-color: #fff;
+    color: white;
+}
+
+.modal-body {
+	padding: 2px 16px;}
+
+fieldset {
+    border: none;
+}
+
+form.signin .textbox label {
+    display: block;
+    padding-bottom: 7px;
+}
+
+form.signin .textbox span {
+    display: block;
+}
+
+form.signin p, form.signin span {
+    color: #999;
+    font-size: 15px;
+    line-height: 18px;
+    color: #11D8FD;
+	font-family: Piedra;
+}
+
+form.signin .textbox input {
+    background: #666666;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #000;
+    border-right: 1px solid #333;
+    border-top: 1px solid #000;
+    color: #fff;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 13px Arial, Helvetica, sans-serif;
+    padding: 6px 6px 4px;
+    width: 200px;
+}
+
+form.signin input:-moz-placeholder {
+    color: #bbb;
+    text-shadow: 0 0 2px #000;
+}
+
+form.signin input::-webkit-input-placeholder {
+    color: #bbb;
+    text-shadow: 0 0 2px #000;
+}
+
+/*---------------------------startsida rutor--------------------------*/
+ul.description{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.description h3{
+	font-family: Piedra;
+	color: #11D8FD;
+}
+
+ul.description li {
+    width: 50%;
+    float: left;
+}
+
+ul.description img {
+    width: 100%;
+}
+
+
+ul.description li:nth-child(1n+1) {
+    clear: none;
+}
+
+ul.description li:nth-child(2n+1) {
+    clear: left;
+}
+
+ul.description li div.inner {
+    margin: 10px;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.login a {
+	display: block;
+	margin: auto;
+	width: 30%;
+	height: 60px;
+	background: #FA8F11;
+	text-align: center;
+	border-radius: 10px;
+	font-family: Piedra;
+	color: #11D8FD; 
+	padding-top: 20px;
+	box-shadow: 5px 5px 10px #ccc;
+	border: 2px solid #;
+	color: #11D8FD;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.login a:hover {
+	box-shadow: 6px 6px 10px #bbb;
+	background: #DE7B1B;
+	color: #10bbdb;
+}
+
+
